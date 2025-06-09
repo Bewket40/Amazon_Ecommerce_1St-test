@@ -1,0 +1,44 @@
+.home {
+  background: linear-gradient(to bottom, #f1edd5, #ffffff 25%);
+  padding-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding:0 100px;
+   margin-top: -400px; /* ✅ Pull it upward over banner */
+  position: relative;
+  z-index: 5;
+}
+
+.home-product-section {
+  padding: 40px;
+  margin-top: 20px;
+  background: #fff;
+}
+
+
+.product-list-wrapper2 {
+  padding: 40px;
+  background: #f8f8f8;
+}
+
+
+
+.product-list2 {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); */
+   grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr; /* ✅ Stack in 1 column on small screens */
+    padding: 0 20px;
+  }
+}

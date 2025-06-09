@@ -1,0 +1,19 @@
+.recently-viewed {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.recently-viewed h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #111;
+    text-align: left;
+}
+
+.recent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
