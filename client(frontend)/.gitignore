@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 *.firebase-service-account.json
 .env
+
+# Local Netlify folder
+.netlify
